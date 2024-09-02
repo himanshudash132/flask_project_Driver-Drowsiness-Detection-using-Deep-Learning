@@ -47,14 +47,17 @@ Open your browser and go to http://127.0.0.1:5000/.
 
 ### Project Structure
 ```bash
-.
+your_project/
+│
 ├── app.py                # Main Flask application
 ├── models/
 │   └── model.h5          # Trained drowsiness detection model
 ├── static/
 │   ├── alarm.wav         # Alarm sound file
-│   ├── styles.css        # CSS for styling the web application
-│   └── script.js         # JavaScript for real-time analytics
+│   ├── css/
+│   │   └── styles.css    # CSS for styling the web application
+│   └── js/
+│       └── script.js     # JavaScript for real-time analytics
 ├── templates/
 │   └── index.html        # HTML template for the web application
 ├── requirements.txt      # Python dependencies
