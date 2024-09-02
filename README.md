@@ -69,12 +69,10 @@ Web Interface: Access the real-time video feed and analytics via the web interfa
 Alarm System: The system will automatically trigger an alarm if it detects drowsiness.
 ### Screenshots
 Real-Time Video Feed
-<!-- Add a screenshot of the real-time video feed -->
-  ![Real-Time Video Feed](flask_project_Driver-Drowsiness-Detection-using-Deep-Learning/image results/1.png)
-
+  ![Real-Time Video Feed](https://github.com/himanshudash132/flask_project_Driver-Drowsiness-Detection-using-Deep-Learning/image results/1.png)
   
 Analytics Dashboard
-<!-- Add a screenshot of the analytics dashboard -->
+  ![Real-Time Video Feed-Screenshot](https://github.com/himanshudash132/flask_project_Driver-Drowsiness-Detection-using-Deep-Learning/image results/2.png)
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
