@@ -32,4 +32,48 @@ cd drowsiness-detection
 ```
 
 ### Install Dependencies
+```bash
 pip install -r requirements.txt
+```
+### Download Model
+Place the trained model file (model.h5) in the models/ directory.
+
+### Run the Application
+```bash
+python app.py
+```
+### Access the Application
+Open your browser and go to http://127.0.0.1:5000/.
+
+### Project Structure
+```bash
+.
+├── app.py                # Main Flask application
+├── models/
+│   └── model.h5          # Trained drowsiness detection model
+├── static/
+│   ├── alarm.wav         # Alarm sound file
+│   ├── styles.css        # CSS for styling the web application
+│   └── script.js         # JavaScript for real-time analytics
+├── templates/
+│   └── index.html        # HTML template for the web application
+├── requirements.txt      # Python dependencies
+└── README.md             # Project README file
+```
+### Usage
+Start the Flask App: Run the application using the command python app.py.
+Web Interface: Access the real-time video feed and analytics via the web interface at http://127.0.0.1:5000/.
+Alarm System: The system will automatically trigger an alarm if it detects drowsiness.
+### Screenshots
+Real-Time Video Feed
+<!-- Add a screenshot of the real-time video feed -->
+Analytics Dashboard
+<!-- Add a screenshot of the analytics dashboard -->
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+### Acknowledgements
+OpenCV
+TensorFlow
+Flask
+Pygame
