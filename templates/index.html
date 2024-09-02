@@ -8,12 +8,53 @@
     <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
 </head>
 <body>
-    <h1>Drowsiness Detection</h1>
-    <div id="video-container">
-        <img id="video" src="{{ url_for('video_feed') }}" alt="Video Feed">
+    <nav>
+        <div class="logo">Drowsiness Detection</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#analytics">Analytics</a></li>
+            <li><a href="#settings">Settings</a></li>
+        </ul>
+    </nav>
+
+    <div id="home" class="section">
+        <h1>Drowsiness Detection</h1>
+        <div id="video-container">
+            <div id="loader"></div>
+            <img id="video" src="" alt="Video Feed">
+        </div>
+        <div class="controls">
+            <button id="start-webcam">Start Webcam</button>
+            <button id="stop-webcam">Stop Webcam</button>
+        </div>
     </div>
-    <button id="start-webcam">Start Webcam</button>
-    <button id="stop-webcam">Stop Webcam</button>
+
+    <div id="analytics" class="section">
+        <h2>Real-Time Analytics</h2>
+        <div class="analytics-grid">
+            <div class="analytics-item">
+                <h3>Uptime</h3>
+                <p id="uptime">0 seconds</p>
+            </div>
+            <div class="analytics-item">
+                <h3>Alerts Triggered</h3>
+                <p id="alert-count">0</p>
+            </div>
+            <div class="analytics-item">
+                <h3>Average Detection Score</h3>
+                <p id="average-score">0</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="settings" class="section">
+        <h2>Settings</h2>
+        <p>Customize your drowsiness detection preferences here.</p>
+        <!-- Add settings components here -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Drowsiness Detection. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
-
