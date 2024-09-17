@@ -23,6 +23,8 @@ This project implements a real-time drowsiness detection system using a deep lea
 - OpenCV
 - Pygame (for sound alarm)
 - Flask
+- Flask
+- Html, Tailwind Css, Javascript
 
 ### Clone the Repository
 
