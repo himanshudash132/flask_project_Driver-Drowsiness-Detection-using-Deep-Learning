@@ -1,4 +1,4 @@
-# Drowsiness Detection System
+# Driver Drowsiness Detection System
 
 This project implements a real-time drowsiness detection system using a deep learning model. The system captures video from a webcam, detects faces and eyes, and uses a trained model to predict whether the user's eyes are open or closed. If the eyes are detected as closed for too long, an alarm sound is triggered to alert the user.
 
